@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v93/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+    font-family: "Roboto Slab", sans-serif;
+}
+.header{
+    background-color: darkmagenta
+}
+.logo{
+    color: #fbecec;
+    padding: 1rem;
+    margin: 0px
+}
+body{
+    margin: 0px;
+}
+.footer{
+   clear: both;
+   padding: 1.2rem;
+   background-color: #440047;
+   color: #fbecec
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem
+}
+.category-column{
+/*
+    width: 25%;
+    float: left;
+    padding: 1.2rem;
+*/
+   
+}
+.headlines-column{
+/*
+    width: 50%;
+    float: left;
+    padding: 1.2rem;
+*/
+}
+.weather-column{
+/*
+    width: 25%;
+    float: left;
+    padding: 1.2rem;
+*/
+}
+.heading{
+    color: #e11d74;
+    margin: 1.2rem
+}
+
+.content{
+    border: 0.1rem solid #91d18b;
+    border-radius: 0.4rem;
+/*
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+*/
+}
+.news-title, .category-item{
+/*
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+*/
+    color: darkmagenta;
+    margin: 1.2rem
+}
+.category-icons{
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #e11d74;
+}
+.news-title:hover{
+    color: #e11d74;
+    cursor: pointer;
+    text-decoration: underline
+}
+.weather-degree{
+    color: #91d18b;
+    font-size: 6rem;
+    text-align: center
+}
+
